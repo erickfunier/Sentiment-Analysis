@@ -1,3 +1,12 @@
+<h1 align="center">
+Sentiment Analysis
+</h1>
+<p align="center">
+  <a href="https://github.com/erickfunier">
+    <img alt="Made by Erick Santos" src="https://img.shields.io/badge/made%20by-Erick%20Santos-lightgrey">
+  </a>
+</p>
+<p>
 Train a sentiment classifier using a sentiment analysis dataset in order to interpret a text input and identify whether the text is positive or negative.<br/>
 For this, two datasets obtained from Kaggle were used:<br/>
 
@@ -15,9 +24,10 @@ For this, two datasets obtained from Kaggle were used:<br/>
 
 The Sentiment140 dataset was used to train the model, for this, the vectorization of the data to an array of numbers with the Sklearn CountVectorizer word frequency counter was performed in the <b>logistic regression</b> which, despite being a simple model, presented a satisfactory result, this can be verified with the 2x2 confusion matrix.<br/>
 The IMDB movie reviews dataset was used to test whether the model was able to rank the reviews satisfactorily.<br/>
-
+</p>
 Running the application:
 
-<h2>Docker</h2>
-* docker build -t sentiment-analysis .
-* docker run --rm -ti sentiment-analysis
+### Docker 
+    
+- `docker build -t sentiment-analysis .`
+- `docker run --rm -ti sentiment-analysis`
